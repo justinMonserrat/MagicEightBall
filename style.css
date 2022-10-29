@@ -19,13 +19,13 @@ body {
 
 #questionLabel {
     font-size: 40px;
-    margin-left: 250px;
-    margin-right: 250px;
+    display: block;
+    margin-left: 400px;
 }
 
 #question {
     font-size: 25px;
-    background-color: gray;
+    background-color: grey;
 }
 
 #ball {

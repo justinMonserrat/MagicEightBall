@@ -27,15 +27,10 @@
     <h1 id="shake">Shake me!</h1>
 
     <br /><br /><br />
-    <p id="questionDisplay"></p>
-
-    <br /><br /><br />
     <p id="fortuneDisplay">What will your fortune be?</p>
 
     <script>
         function shakeTheBall() {
-
-            getQuestion();
 
             var ball = document.getElementById("ball");
 
@@ -49,14 +44,6 @@
 
                 getFortune();
             }, 1500);
-
-        }
-
-        function getQuestion() {
-
-            let theQuestion = document.getElementById("question").value;
-
-            theQuestion ? document.getElementById("questionDisplay").innerHTML = "You asked '" + theQuestion + "'" : document.getElementById("questionDisplay").innerHTML = "You did not ask a question.";
 
         }
 
